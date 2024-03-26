@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Login Responsivo</title>
 </head>
 <body>
@@ -16,13 +17,12 @@
                 
                 <p style="text-align: center; font-weight: bold; color: white;">ÁREA DO CLIENTE</p>
                 <p style="text-align: center; color: white; ">Coloque suas informações abaixo para realizar seu login</p>
-
-                <section class="cadastro">
-                    <label for="igmail">LOGIN: <input type="email" name="gmail" id="igmail"></label><br>
-                    <label for="isenha">SENHA: <input type="password" name="senha" id="isenha"></label>
-                    <div class="buttom"><input type="button" value="ENVIAR"></div>
                 </section>
-            </section>
+                    <form>
+                        <div class="campo"><span class="material-symbols-outlined">person</span><label for="igmail">LOGIN: </label><input type="email" name="gmail" id="igmail"><br></div>
+                        <div class="campo"><span class="material-symbols-outlined">key</span><label for="isenha">SENHA: </label><input type="password" name="senha" id="isenha"></div>
+                        <input type="submit" value="ENVIAR">
+                    </form>
         </section>
     </main>
 </body>

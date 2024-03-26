@@ -27,13 +27,46 @@
     background-size: contain;
     background-repeat: no-repeat;
  }
- .cadastro{
-    margin-top: 50px;
-    text-align: center;
-    color: white;
-    font-weight: lighter;
+
+.campo{
+   display: block;
+   color: white;
+   margin: auto;
+
+}
+.campo span{
+  display: block;
+  
+}
+ .campo label{
+   display: none;
  }
- .buttom{
-    text-align: center;
-    padding-top:10px;
- }
+.campo input[type=email]{
+   display: block;
+   margin: auto;
+   border-radius: 100px;
+   border: none;
+
+}
+.campo input[type=password]{
+   display: block;
+   margin: auto;
+   border-radius: 100px;
+   border: none;
+   height: 20px;
+}
+form > input[type=submit]{
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+   width: 200px;
+   font-size: 1em;
+   font-family: "Kodchasan";
+   background-color: rgb(196, 193, 193);
+   border-radius: 10px;
+   border: none;
+}
+form input[type=submit]:hover{
+   background-color: white;
+   cursor: pointer;
+}
