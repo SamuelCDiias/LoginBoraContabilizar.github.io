@@ -1,7 +1,7 @@
 @charset "UTF-8";
  body{
     background-color:#ecc30ccb ;
-    font-family: "Kodchasan",sans-serif;
+    font-family: 'Kodchasan',sans-serif,monospace ;
  }
  .login{
     position: absolute;
