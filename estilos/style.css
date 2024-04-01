@@ -5,7 +5,6 @@
 
 body{
     background-color:#ecc30ccb ;
-    font-family: 'Kodchasan',sans-serif,monospace ;
  }
  .login{
     position: absolute;
@@ -47,7 +46,6 @@ body{
    margin-bottom: 10px;
    border-radius: 8px;
    border: none;
-   font-family: "Kodchasan";
    font-weight: bold;
    outline: 0;
  }

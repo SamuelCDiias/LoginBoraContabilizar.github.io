@@ -1,6 +1,9 @@
 @media screen and (min-width: 480px) {
     .login{
-        max-width: 50vw;
+        width: 30vw;
+    }
+    .logo div{
+        width: 350px;
     }
     .campo{
 
