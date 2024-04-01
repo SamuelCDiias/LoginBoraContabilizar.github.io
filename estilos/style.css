@@ -27,33 +27,25 @@
     background-size: contain;
     background-repeat: no-repeat;
  }
-
-.campo{
+ .campo{
    display: block;
    color: white;
    margin: auto;
-
-}
-.campo span{
-  display: block;
-  
 }
  .campo label{
    display: none;
  }
-.campo input[type=email]{
-   display: block;
+ .campo i{ 
+ }
+ .campo input[type=email]{
    margin: auto;
    border-radius: 100px;
    border: none;
-
 }
 .campo input[type=password]{
-   display: block;
    margin: auto;
    border-radius: 100px;
    border: none;
-   height: 20px;
 }
 form > input[type=submit]{
    display: block;
