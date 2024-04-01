@@ -1,6 +1,6 @@
 @charset "UTF-8";
  body{
-    background-color:#d3bb4b ;
+    background-color:#ecc30ccb ;
     font-family: "Kodchasan";
  }
  .login{
@@ -30,35 +30,41 @@
  .campo{
    display: block;
    color: white;
-   margin: auto;
+   text-align: center;
 }
  .campo label{
    display: none;
  }
- .campo i{ 
+ .campo input{
+   width: 250px;
+   padding: 2px 5px 2px 10px;
+   margin-bottom: 10px;
+   border-radius: 8px;
+   border: none;
+   font-family: "Kodchasan";
+   font-weight: bold;
+   outline: 0;
  }
- .campo input[type=email]{
-   margin: auto;
-   border-radius: 100px;
-   border: none;
-}
-.campo input[type=password]{
-   margin: auto;
-   border-radius: 100px;
-   border: none;
-}
-form > input[type=submit]{
+ .campo input::placeholder{
+   padding-top: 5px;
+   padding-left: 10px;
+   font-family: "Kodchasan";
+   font-weight: lighter;
+ }
+ form > input[type=submit]{
+   color: white;
    display: block;
    margin: auto;
    margin-top: 20px;
-   width: 200px;
+   width: 150px;
    font-size: 1em;
    font-family: "Kodchasan";
-   background-color: rgb(196, 193, 193);
    border-radius: 10px;
-   border: none;
+   border: 3px solid #ecc40c ;
+   background-color: transparent;
 }
 form input[type=submit]:hover{
-   background-color: white;
+   background-color: #ecc40c;
+   color: #727276;
    cursor: pointer;
 }
