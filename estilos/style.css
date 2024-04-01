@@ -20,7 +20,7 @@
  }
  .logo div{
     margin: auto;
-    width: 200px;
+    width: 250px;
     height: 200px;
     background-image: url(../imagens/logo_color.png);
     background-position: center;
@@ -70,7 +70,6 @@
    margin-top: 20px;
    width: 150px;
    font-size: 1em;
-   font-family: "Kodchasan";
    border-radius: 10px;
    border: 3px solid #ecc40c ;
    background-color: transparent;
