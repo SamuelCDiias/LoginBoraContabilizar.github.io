@@ -1,9 +1,9 @@
 @media screen and (min-width: 480px) {
     .login{
-        width: 50vw;
+        max-width: 50vw;
     }
     .campo{
-        
+
 
     }
 }

@@ -50,7 +50,6 @@
  .campo input::placeholder{
    padding-top: 5px;
    padding-left: 10px;
-   font-family: "Kodchasan";
    font-weight: lighter;
  }
  .campo input[type=password]{
