@@ -1,6 +1,18 @@
-@media screen and (min-width: 481px ) {
+@media screen and (min-width: 481px){
   .login{
     min-width: 481px;
     max-width: 50vw;
+  }
+  .logo div{
+    min-width: 350px;
   }  
+  .campo input{
+    min-width: 350px;
+  }
+  form > input[type=submit]{
+    min-width: 200px;
+  }
+  .campo span{
+    right: 13%;
+  }
 }
