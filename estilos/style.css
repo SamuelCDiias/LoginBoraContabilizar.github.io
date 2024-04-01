@@ -1,7 +1,7 @@
 @charset "UTF-8";
  body{
     background-color:#ecc30ccb ;
-    font-family: "Kodchasan";
+    font-family: "Kodchasan",sans-serif;
  }
  .login{
     position: absolute;
@@ -52,6 +52,16 @@
    padding-left: 10px;
    font-family: "Kodchasan";
    font-weight: lighter;
+ }
+ .campo input[type=password]{
+   position: flex;
+ }
+ .campo span{
+   position: absolute;
+   right: 8%;
+   margin-top: 7px;
+   color: #616164;
+   cursor: pointer;
  }
  form > input[type=submit]{
    color: white;
