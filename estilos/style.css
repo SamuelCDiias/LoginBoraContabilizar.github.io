@@ -1,5 +1,9 @@
 @charset "UTF-8";
- body{
+*{
+   font-family: 'Kodchasan',sans-serif,monospace ;
+} 
+
+body{
     background-color:#ecc30ccb ;
     font-family: 'Kodchasan',sans-serif,monospace ;
  }
