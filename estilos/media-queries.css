@@ -2,7 +2,7 @@
   .login{
     min-width: 481px;
     max-width: 50vw;
-    max-width: 50vh;
+    max-height: 50vh;
   }
   .logo div{
     min-width: 350px;
